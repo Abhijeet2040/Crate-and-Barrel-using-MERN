@@ -1,0 +1,73 @@
+#heading {
+  width: 60%;
+  margin: auto;
+  padding: 20px 0;
+  font-weight: 600;
+  font-size: 1rem;
+  font-size: 1.4rem;
+}
+#register {
+  
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  align-items: flex-start;
+  font-size: 0.8rem;
+}
+#register > div:nth-child(1) {
+  width: 60%;
+}
+#register > div:nth-child(2) {
+  width: 35%;
+}
+#register label {
+  /* margin-top: 20px; */
+  /* margin-bottom: 10px; */
+}
+#register select {
+  width: 40%;
+  height: 45px;
+  padding-left: 12px;
+  /* margin-top: 15px; */
+  /* margin-bottom: 25px; */
+}
+#register input {
+  width: 95%;
+  /* height: 15px; */
+  padding: 12px;
+  border: 1px solid #333;
+  /* margin-top: 15px; */
+  /* margin-bottom: 25px; */
+}
+#register button {
+  width: 100%;
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 15px;
+}
+
+.login {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  #register {
+    flex-direction: column;
+  }
+  .login {
+    padding: 75px 0;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,80 @@
+.login {
+  width: 60%;
+  margin: auto;
+
+  /* border: 2px solid red; */
+  display: flex;
+  /* padding: 2rem 20rem; */
+}
+.heading {
+  font-weight: 600;
+  font-size: 1rem;
+  font-size: 1.4rem;
+  padding: 15px 20px 15px 50px;
+}
+.login-page-btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #333;
+  border: none;
+  color: #ffffff;
+  width: 90%;
+}
+.login-page-input {
+  width: 90%;
+  height: 10px;
+  padding: 15px 15px;
+  /* color: #ffffff; */
+  border: 1px solid #333;
+}
+.main {
+  font-size: 0.75rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid blue; */
+}
+.login-form{
+  padding-left: 80%;
+}
+
+.login-form label,
+.login-page-input {
+  
+  margin: 12px 0px;
+}
+
+.login > div > div {
+  width: 50%;
+  padding:61px -12px 48px 105px;
+  /* border: 2px solid green; */
+}
+
+#register > div {
+  display: flex;
+  align-items: center;
+}
+#register > div > div {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+#register img {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .login {
+    padding: 2rem 10rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .login {
+    padding: 2rem 0;
+  }
+}

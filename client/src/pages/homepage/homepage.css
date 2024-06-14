@@ -1,0 +1,347 @@
+/* Video Container  */
+#video-container {
+  text-align: center;
+}
+#video-container video {
+  width: 100%;
+}
+
+#video-container > div {
+  position: absolute;
+  width: 100%;
+  margin-inline: auto;
+  margin-top: 250px;
+}
+
+#video-container h1 {
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+#video-container button {
+  width: 220px;
+  background-color: white;
+  border: none;
+  margin-inline: 20px;
+  padding: 15px 30px;
+}
+
+/* Slider 1  */
+#slider1 {
+  height: 400px;
+  display: flex;
+}
+#slider1 > a {
+  width: 300px;
+  padding: 20px;
+  margin: 20px 10px;
+  /* border: 2px solid blue; */
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+#slider1 > a > h4 {
+  color: white;
+  font-weight: 600;
+}
+#slider1 > a > h3 {
+  color: #ffd000;
+  font-weight: 600;
+}
+#slider1 > a:nth-child(1) {
+  background-image: url(https://wakefitdev.gumlet.io/consumer-react/Living/Recliners.jpg?w=240);
+}
+#slider1 > a:nth-child(2) {
+  background-image: url(https://images.woodenstreet.de/image/cache/data%2Fchina-furniture%2Fcarolina-lounge-chair-brown%2Fbrown%2FCream%2F1-810x702.jpg);
+}
+#slider1 > a:nth-child(3) {
+  background-image: url(https://images.woodenstreet.de/image/cache/data%2Fwooden-sofa%2Fmarriott-wooden-sofa%2Frevised%2Frevised-looks%2Fhoney%2Fupdated-new%2F12-810x702.jpg);
+}
+#slider1 > a:nth-child(4) {
+  background-image: url(https://images.woodenstreet.de/image/cache/data%2Fbed-with-storage%2Fdrewno-upholstered-bed-with-storage%2Fupdated%2FGraphite-Grey%2Fupdated%2F1-810x702.jpg);
+}
+#slider1 > a:nth-child(5) {
+  background-image: url(https://images.woodenstreet.de/image/cache/data%2Fcoffee-tables-mdf%2Fjevon-coffee-table%2Fexotic-teak-finish%2Fupdated%2F1-810x702.jpg);
+}
+#slider1 > a:nth-child(6) {
+  background-image: url(https://www.casafurnishing.in/wp-content/uploads/2022/11/Sofa-Set-Sheesham-wood-High-Quality-Modern-1.jpg);
+}
+/* Image Container 1  */
+#container1 {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/270/633/106/modern-king-size-bedroom-wallpaper-preview.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 650px;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+}
+#container1 > div {
+  margin-left: 125px;
+  /* border: 2px solid yellow; */
+  width: 40%;
+  color: white;
+}
+
+#container1 #image {
+  display: flex;
+  gap: 10px;
+}
+#container1 #image > img {
+  height: 40px;
+}
+#container1 button {
+  margin-top: 30px;
+  background-color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 0.8rem;
+}
+#container1 button a {
+  text-decoration: none;
+  color: #5e5e5e;
+}
+
+#container1 h1 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding-bottom: 15px;
+}
+
+.sub-heading {
+  font-size: 1.8rem;
+  padding-bottom: 15px;
+}
+
+.details {
+  font-size: 0.8rem;
+  padding-bottom: 15px;
+}
+/* 2x2 Grid Section  */
+#grid2x2 {
+  width: 100%;
+  margin: 50px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  gap: 20px;
+}
+#grid2x2 > div > div {
+  width: 80%;
+  margin: auto;
+  /* border: 1px solid black; */
+  padding-block-start: 20px;
+}
+
+#grid2x2 h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+#grid2x2 p {
+  font-size: 0.9rem;
+}
+#grid2x2 img {
+  width: 100%;
+}
+#grid2x2 button {
+  width: 35%;
+  background-color: #001f49;
+  border: 1px solid black;
+  color: white;
+  margin-top: 15px;
+  padding: 15px 20px;
+  font-size: 0.8rem;
+}
+/* Extra Info  */
+#ex-info {
+  width: 100%;
+  display: flex;
+  margin: 40px 0px;
+  justify-content: space-evenly;
+  background-color: #ebedf3;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+#ex-info > div {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#ex-info > div > div {
+  height: 60px;
+  align-items: center;
+  padding: 0 100px;
+}
+#ex-info img {
+  height: 50px;
+}
+
+#ex-info h4 {
+  font-weight: 600;
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+#ex-info p {
+  font-size: 0.75rem;
+}
+/* Image Container 1  */
+#container2 {
+  background-image: url(https://i.pinimg.com/originals/86/9e/f4/869ef4f3c37ac0118ce9f7b9ce774f13.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 650px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#container2 > div {
+  margin-right: 60px;
+  /* border: 2px solid yellow; */
+  width: 40%;
+  text-align: center;
+  color: white;
+}
+#container2 button {
+  margin-top: 30px;
+  background-color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 0.8rem;
+}
+#container2 button a {
+  text-decoration: none;
+  color: #5e5e5e;
+}
+
+#container2 h1 {
+  font-weight: 400;
+  font-size: 1.9rem;
+  padding-bottom: 10px;
+}
+
+#container2 p {
+  font-size: 0.85rem;
+}
+
+@media screen and (max-width: 768px) {
+  #video-container > div {
+    margin-top: 150px;
+  }
+
+  #slider1 > a {
+    max-width: 100%;
+  }
+}
+
+/* For screens 480px and below (Mobile Phones) */
+@media screen and (max-width: 480px) {
+  #video-container > div {
+    margin-top: 100px;
+  }
+
+  #container1 > div {
+    width: 80%;
+    margin-left: 25px;
+    margin-top: 50px;
+  }
+
+  /* ... Add additional styling for responsiveness as needed ... */
+}
+@media screen and (max-width: 768px) {
+  #video-container > div {
+    margin-top: 150px;
+  }
+
+  #slider1 {
+    scroll-snap-type: none; /* Disable snap-scrolling for small screens */
+    overflow-x: scroll; /* Enable horizontal scrolling for small screens */
+  }
+
+  #slider1 > a {
+    flex: 0 0 auto;
+    width: 80%; /* Adjust the slide width for better display on small screens */
+    max-width: 100%;
+    margin: 20px 10px;
+  }
+}
+
+/* For screens 480px and below (Mobile Phones) */
+@media screen and (max-width: 480px) {
+  #video-container > div {
+    margin-top: 100px;
+  }
+
+  #container1 > div {
+    width: 80%;
+    margin-left: 25px;
+    margin-top: 50px;
+  }
+
+  #slider1 > a {
+    flex: 0 0 auto;
+    width: 80%; /* Adjust the slide width for better display on small screens */
+    max-width: 100%;
+    margin: 20px 5px;
+  }
+
+  /* ... Add additional styling for responsiveness as needed ... */
+}
+@media screen and (max-width: 480px) {
+  #video-container > div {
+    margin-top: 100px;
+  }
+
+  #container1 > div {
+    width: 80%;
+    margin-left: 25px;
+    margin-top: 50px;
+  }
+
+  #slider1 > a {
+    flex: 0 0 auto;
+    width: 80%; /* Adjust the slide width for better display on small screens */
+    max-width: 100%;
+    margin: 20px 5px;
+  }
+
+  /* ... (Additional styling for responsiveness as needed) ... */
+
+  /* Adjust font sizes for h tags */
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+  }
+
+  h5 {
+    font-size: 0.8rem;
+  }
+
+  h6 {
+    font-size: 0.7rem;
+  }
+
+  /* Adjust font size for buttons */
+  button {
+    font-size: 0.8rem;
+  }
+}

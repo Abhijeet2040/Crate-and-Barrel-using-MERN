@@ -1,0 +1,132 @@
+.cart{
+  margin-right: 20px;
+  margin-top: 53px;
+}
+.user-icon{
+  margin-left: 250px;
+}
+.list {
+  list-style-type: none;
+  background:black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 7px;
+}
+.list1 {
+  list-style-type: none;
+  background:white;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  position: relative;
+  padding-top: 7px;
+}
+.items {
+  margin-right: 80px;
+  font-size: 13px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 5px 0;
+}
+.items1 {
+  margin-right: 40px;
+  font-size: 13px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 5px 0;
+}
+.items:nth-child(9) {
+  display: none;
+}
+.items:nth-child(10) {
+  display: none;
+}
+.btn {
+  display: none;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  padding: 5px;
+  color: #000;
+  font-size: 30px;
+}
+
+.cart {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 5px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .list {
+    flex-direction: column;
+    height: auto;
+  }
+  .items:nth-child(9) {
+    display: block;
+    background: #e4e4e4;
+  }
+  .items:nth-child(10) {
+    display: block;
+    background: #e4e4e4;
+  }
+  .items {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    text-align: left;
+    margin-right: 0px;
+    padding: 20px 30px;
+  }
+  .btn {
+    display: block;
+  }
+  .user-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .items {
+    margin-right: 40px;
+  }
+  .list {
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+  .btn {
+    display: block;
+  }
+  .user-icon {
+    display: none;
+  }
+}
+
+/* Media query for screens with width less than or equal to 576px */
+@media screen and (max-width: 576px) {
+  .items {
+    margin-right: 20px;
+  }
+}
+
+/* Media query for screens with width less than or equal to 320px */
+@media screen and (max-width: 320px) {
+  .items {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 1108px) {
+  /* Hide the icons on smaller screens */
+  @media screen and (max-width: 1109px) {
+    .cart,
+    .wishlist,
+    .account,
+    .location {
+      display: none;
+    }
+  }
+}
